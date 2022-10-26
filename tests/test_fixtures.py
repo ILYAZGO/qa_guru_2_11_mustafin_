@@ -6,7 +6,6 @@ from selene.support.shared import browser
 from selene import have
 
 
-
 @pytest.fixture()
 def desktop_management():
     browser.config.window_width = 1280
